@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+<h1 style="text-align: center; margin-top:25%">트와이스, OOH-AHH하게</h1>
+<h3 style="text-align: center; maring-top: 28%;">뮤비를 보고 나에게 눈이 있다는 것을 깨달았다.</h3>
+<script>
+var bgm = new Audio('');
+if(!bgm.canPlayType('audio/ogg')) alert('브라우저가 ogg 재생을 지원하지 않습니다.');
+else {
+    var bgm_url = 'https://www.youtube.com/watch?v=0rtV5esQT6I&feature=player_embedded';
+	//var bgm_url = 'http://upload.wikimedia.org/wikipedia/commons/d/d7/Wikinews_Remix_Jingle.ogg';
+	bgm = new Audio(bgm_url);
+	bgm.play();
+}
+</script>
+</body>
+</html>
